@@ -1,9 +1,14 @@
 public class BalancoSimestral {
     public static void main(String[] args) {
-    int janeiro = 15000;
-    int fevereiro = 23000;
-    int marco = 17000;
-    
+    int gastosJaneiro = 15000;
+    int gastosFevereiro = 23000;
+    int gastosMarco = 17000;
+
+    int gastosTrimestre = gastosJaneiro + gastosFevereiro + gastosMarco;
+        int mediaMensal = gastosTrimestre/3;
+    System.out.println(gastosTrimestre);
+    System.out.println(mediaMensal);
+
 
 }
 }
